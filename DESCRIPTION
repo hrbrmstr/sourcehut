@@ -12,7 +12,7 @@ Description: SourceHut (<https://sourcehut.org/>) provides support for collabora
 URL: https://gitlab.com/hrbrmstr/sourcehut
 BugReports: https://gitlab.com/hrbrmstr/sourcehut/issues
 Encoding: UTF-8
-License: AGPL
+License: MIT + file LICENSE
 Suggests: covr, tinytest
 Depends: R (>= 3.2.0)
 Imports: httr, jsonlite, usethis, crayon, desc, rprojroot

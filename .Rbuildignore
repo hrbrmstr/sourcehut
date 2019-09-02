@@ -20,3 +20,4 @@
 ^appveyor\.yml$
 ^tools$
 ^\.build\.yml$
+^LICENSE\.md$

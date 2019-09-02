@@ -71,7 +71,6 @@ packages:
   - r-cran-stringi
   - r-cran-testthat
   - r-cran-testit
-  - r-cran-tinytest
   - r-cran-tidyverse
   - r-cran-xml2
 environment:
@@ -108,13 +107,12 @@ environment:
   _R_CHECK_SHLIB_OPENMP_FLAGS_: TRUE
   _R_CHECK_CONNECTIONS_LEFT_OPEN_: TRUE
   _R_CHECK_FUTURE_FILE_TIMESTAMPS_: TRUE
-  _R_CHECK_AUTOCONF_: true
+  _R_CHECK_AUTOCONF_: TRUE
 sources:
   - https://git.sr.ht/~hrbrmstr/sourcehut
 tasks:
   - setup: |
       sudo locale-gen --purge "en_US.UTF-8"
-      sudo update-locale "LANG=en_US.UTF-8"
       sudo dpkg-reconfigure --frontend noninteractive locales
       export LC_ALL=en_US.UTF-8
       export LANG=en_US.UTF-8
@@ -122,7 +120,7 @@ tasks:
       echo 'options(repos = c(CRAN = "https://cloud.r-project.org"))' > ~/.Rprofile
       echo 'R_LIBS_USER=/home/build/packages' > ~/.Renviron
       mkdir /home/build/packages
-      Rscript -e 'install.packages(c("covr"))'
+      Rscript -e 'install.packages(c("covr", "tinytest"))'
   - build: |
       R CMD build ${R_PACKAGE}
       R CMD check ${R_PACKAGE}_*gz
