@@ -39,6 +39,8 @@ The following functions are implemented:
   - `sourcehut_pat`: Get or set SourceHut Personal Access Token
   - `sourcehut_user`: Get or set SourceHut username value
   - `use_builds`: Setup .build.yml for SourceHut builds
+  - `use_sourcehut_badge`: Adds a SourceHut builds.sr.ht badge to your
+    README
 
 ## Installation
 
@@ -71,8 +73,8 @@ packageVersion("sourcehut")
 
 | Lang | \# Files |  (%) | LoC |  (%) | Blank lines |  (%) | \# Lines |  (%) |
 | :--- | -------: | ---: | --: | ---: | ----------: | ---: | -------: | ---: |
-| R    |       14 | 0.93 | 211 | 0.96 |          88 | 0.85 |       96 | 0.77 |
-| Rmd  |        1 | 0.07 |   8 | 0.04 |          15 | 0.15 |       28 | 0.23 |
+| R    |       15 | 0.94 | 219 | 0.96 |          91 | 0.86 |      105 | 0.79 |
+| Rmd  |        1 | 0.06 |   8 | 0.04 |          15 | 0.14 |       28 | 0.21 |
 
 ## Code of Conduct
 
