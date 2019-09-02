@@ -29,6 +29,7 @@ wide variety of SourceHut servies.
 
 The following functions are implemented:
 
+  - `build_pkg`: Submits a build job for a package
   - `git_repos`: Retrieve metadata about repositories
   - `git_user`: Retrieve metadata about yourself or another SourceHut
     user
@@ -70,8 +71,8 @@ packageVersion("sourcehut")
 
 | Lang | \# Files |  (%) | LoC |  (%) | Blank lines |  (%) | \# Lines |  (%) |
 | :--- | -------: | ---: | --: | ---: | ----------: | ---: | -------: | ---: |
-| R    |       13 | 0.93 | 155 | 0.95 |          67 | 0.82 |       72 | 0.72 |
-| Rmd  |        1 | 0.07 |   8 | 0.05 |          15 | 0.18 |       28 | 0.28 |
+| R    |       14 | 0.93 | 211 | 0.96 |          88 | 0.85 |       96 | 0.77 |
+| Rmd  |        1 | 0.07 |   8 | 0.04 |          15 | 0.15 |       28 | 0.23 |
 
 ## Code of Conduct
 

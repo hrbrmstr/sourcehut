@@ -10,4 +10,5 @@
 #' @author Bob Rudis (bob@@rud.is)
 #' @import httr usethis crayon desc rprojroot glue
 #' @importFrom jsonlite fromJSON
+#' @importFrom utils browseURL
 "_PACKAGE"

@@ -15,6 +15,6 @@ Encoding: UTF-8
 License: MIT + file LICENSE
 Suggests: covr, tinytest
 Depends: R (>= 3.2.0)
-Imports: httr, jsonlite, usethis, crayon, desc, rprojroot, glue
+Imports: httr, jsonlite, usethis, crayon, desc, rprojroot, glue, utils
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
