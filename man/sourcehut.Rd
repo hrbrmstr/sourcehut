@@ -4,9 +4,11 @@
 \name{sourcehut}
 \alias{sourcehut}
 \alias{sourcehut-package}
-\title{...}
+\title{sourcehut}
 \description{
-A good description goes here otherwise CRAN checks fail.
+SourceHut (\url{https://sourcehut.org/}) provides support for collaborative
+development of anything that can can be managed by Git or Mecurial version control
+systems. Tools are provided to query and ochestrate a wide variety of SourceHut servies.
 }
 \seealso{
 Useful links:

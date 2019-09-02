@@ -1,18 +1,20 @@
 Package: sourcehut
 Type: Package
-Title: sourcehut title goes here otherwise CRAN checks fail
+Title: Tools to Work with the SourceHut Development Ecosystem
 Version: 0.1.0
 Date: 2019-09-02
 Authors@R: c( person("Bob", "Rudis", email = "bob@rud.is", role =
         c("aut", "cre"), comment = c(ORCID = "0000-0001-5670-2640")) )
 Maintainer: Bob Rudis <bob@rud.is>
-Description: A good description goes here otherwise CRAN checks fail.
+Description: SourceHut (<https://sourcehut.org/>) provides support for collaborative
+    development of anything that can can be managed by Git or Mecurial version control
+    systems. Tools are provided to query and ochestrate a wide variety of SourceHut servies.
 URL: https://gitlab.com/hrbrmstr/sourcehut
 BugReports: https://gitlab.com/hrbrmstr/sourcehut/issues
 Encoding: UTF-8
 License: AGPL
 Suggests: covr, tinytest
 Depends: R (>= 3.2.0)
-Imports: httr, jsonlite
+Imports: httr, jsonlite, usethis, crayon, desc, rprojroot
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
