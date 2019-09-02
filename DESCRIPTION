@@ -9,12 +9,12 @@ Maintainer: Bob Rudis <bob@rud.is>
 Description: SourceHut (<https://sourcehut.org/>) provides support for collaborative
     development of anything that can can be managed by Git or Mecurial version control
     systems. Tools are provided to query and ochestrate a wide variety of SourceHut servies.
-URL: https://gitlab.com/hrbrmstr/sourcehut
-BugReports: https://gitlab.com/hrbrmstr/sourcehut/issues
+URL: https://git.sr.ht/~hrbrmstr/sourcehut
+BugReports: https://todo.sr.ht/~hrbrmstr/sourcehut
 Encoding: UTF-8
 License: MIT + file LICENSE
 Suggests: covr, tinytest
 Depends: R (>= 3.2.0)
-Imports: httr, jsonlite, usethis, crayon, desc, rprojroot
+Imports: httr, jsonlite, usethis, crayon, desc, rprojroot, glue
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1

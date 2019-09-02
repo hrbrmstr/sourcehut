@@ -7,8 +7,7 @@ sourcehut_user <- function(force = FALSE) {
 
   user <- Sys.getenv('SOURCEHUT_USERNAME')
   if (!identical(user, "") && !force) {
-    if (!startsWith(user, "~")) user <- sprintf("~%s", user)
-    return(user)
+    return(make_canonical(user))
   }
 
   if (!interactive()) {
@@ -24,10 +23,8 @@ sourcehut_user <- function(force = FALSE) {
     stop("SourceHut username entry failed", call. = FALSE)
   }
 
-  if (!startsWith(user, "~")) user <- sprintf("~%s", user)
-
   message("Updating SOURCEHUT_USERNAME env var")
-  Sys.setenv(SOURCEHUT_USERNAME = user)
+  Sys.setenv(SOURCEHUT_USERNAME = make_canonical(user))
 
   user
 

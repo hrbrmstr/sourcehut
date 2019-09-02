@@ -13,8 +13,8 @@ systems. Tools are provided to query and ochestrate a wide variety of SourceHut 
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://gitlab.com/hrbrmstr/sourcehut}
-  \item Report bugs at \url{https://gitlab.com/hrbrmstr/sourcehut/issues}
+  \item \url{https://git.sr.ht/~hrbrmstr/sourcehut}
+  \item Report bugs at \url{https://todo.sr.ht/~hrbrmstr/sourcehut}
 }
 
 }

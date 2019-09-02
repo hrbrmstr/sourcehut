@@ -1,7 +1,7 @@
 
-[![Project Status: Active – The project has reached a stable, usable
-state and is being actively
-developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Project Status: WIP – Initial development is in progress, but there
+has not yet been a stable, usable release suitable for the
+public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![Signed
 by](https://img.shields.io/badge/Keybase-Verified-brightgreen.svg)](https://keybase.io/hrbrmstr)
 ![Signed commit
@@ -12,7 +12,7 @@ Status](https://travis-ci.org/hrbrmstr/sourcehut.svg?branch=master)](https://tra
 status](https://builds.sr.ht/~hrbrmstr/sourcehut.svg)](https://builds.sr.ht/~hrbrmstr/sourcehut?)  
 ![Minimal R
 Version](https://img.shields.io/badge/R%3E%3D-3.2.0-blue.svg)
-![License](https://img.shields.io/badge/License-AGPL-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 # sourcehut
 
@@ -29,6 +29,13 @@ wide variety of SourceHut servies.
 
 The following functions are implemented:
 
+  - `git_repos`: Retrieve metadata about repositories
+  - `git_user`: Retrieve metadata about yourself or another SourceHut
+    user
+  - `meta_audit`: Retrieve your audit log
+  - `meta_profile`: Retrieve metadata about yourself
+  - `meta_ssh_keys`: Retrieve your SSH keys
+  - `sourcehut_pat`: Get or set SourceHut Personal Access Token
   - `sourcehut_user`: Get or set SourceHut username value
   - `use_builds`: Setup .build.yml for SourceHut builds
 
@@ -61,10 +68,10 @@ packageVersion("sourcehut")
 
 ## sourcehut Metrics
 
-| Lang | \# Files |  (%) | LoC | (%) | Blank lines |  (%) | \# Lines | (%) |
-| :--- | -------: | ---: | --: | --: | ----------: | ---: | -------: | --: |
-| R    |        5 | 0.83 |  71 | 0.9 |          23 | 0.61 |       28 | 0.5 |
-| Rmd  |        1 | 0.17 |   8 | 0.1 |          15 | 0.39 |       28 | 0.5 |
+| Lang | \# Files |  (%) | LoC |  (%) | Blank lines |  (%) | \# Lines |  (%) |
+| :--- | -------: | ---: | --: | ---: | ----------: | ---: | -------: | ---: |
+| R    |       13 | 0.93 | 155 | 0.95 |          67 | 0.82 |       72 | 0.72 |
+| Rmd  |        1 | 0.07 |   8 | 0.05 |          15 | 0.18 |       28 | 0.28 |
 
 ## Code of Conduct
 
