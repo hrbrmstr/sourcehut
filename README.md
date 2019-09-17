@@ -33,6 +33,8 @@ The following functions are implemented:
   - `git_repos`: Retrieve metadata about repositories
   - `git_user`: Retrieve metadata about yourself or another SourceHut
     user
+  - `install_sourcehut`: Install a package from a SourceHut git
+    repository
   - `meta_audit`: Retrieve your audit log
   - `meta_profile`: Retrieve metadata about yourself
   - `meta_ssh_keys`: Retrieve your SSH keys
@@ -66,15 +68,15 @@ library(sourcehut)
 
 # current version
 packageVersion("sourcehut")
-## [1] '0.1.0'
+## [1] '0.2.0'
 ```
 
 ## sourcehut Metrics
 
-| Lang | \# Files |  (%) | LoC |  (%) | Blank lines |  (%) | \# Lines |  (%) |
-| :--- | -------: | ---: | --: | ---: | ----------: | ---: | -------: | ---: |
-| R    |       15 | 0.94 | 219 | 0.96 |          91 | 0.86 |      105 | 0.79 |
-| Rmd  |        1 | 0.06 |   8 | 0.04 |          15 | 0.14 |       28 | 0.21 |
+| Lang | \# Files |  (%) | LoC |  (%) | Blank lines |  (%) | \# Lines | (%) |
+| :--- | -------: | ---: | --: | ---: | ----------: | ---: | -------: | --: |
+| R    |       16 | 0.94 | 224 | 0.97 |          95 | 0.86 |      115 | 0.8 |
+| Rmd  |        1 | 0.06 |   8 | 0.03 |          15 | 0.14 |       28 | 0.2 |
 
 ## Code of Conduct
 

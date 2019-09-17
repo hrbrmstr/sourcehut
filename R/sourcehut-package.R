@@ -11,4 +11,5 @@
 #' @import httr usethis crayon desc rprojroot glue
 #' @importFrom jsonlite fromJSON
 #' @importFrom utils browseURL
+#' @importFrom remotes install_git
 "_PACKAGE"
